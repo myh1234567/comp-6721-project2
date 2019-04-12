@@ -1,7 +1,7 @@
 import os
 import re
 import math
-path = '/Users/yuhaomao/Downloads/train'
+path = '/Users/Downloads/train'
 files=os.listdir(path)
 output_file=""
 output_file=open("./baseline-model.txt","w")
@@ -171,7 +171,7 @@ output_file.close()
 
 
 ################## task 2
-path_test = '/Users/yuhaomao/Downloads/test'
+path_test = '/Users/Downloads/test'
 files_test=os.listdir(path_test)
 wordset_test = []
 spam_score = 1
@@ -237,7 +237,7 @@ tp = 0
 fp = 0
 fn = 0
 tn = 0
-# file_model = open("/Users/yuhaomao/PycharmProjects/comp6721_with_YH.M/model.txt")
+# file_model = open("/Users/PycharmProjects/model.txt")
 # contents_model = file_model.readlines()
 # for i in contents_model:
 #     word_model = re.split("  ", i)
@@ -300,7 +300,7 @@ output_file_task2.close()
 ##################### task 3
 
 
-# path_stopword = '/Users/yuhaomao/PycharmProjects/comp6721_with_YH.M/stop_word.txt'
+# path_stopword = '/Users/PycharmProjects/comp6721_/stop_word.txt'
 # files_stopword=open(path_stopword)
 #
 # output_file_stopW=""
@@ -501,7 +501,7 @@ output_file_task2.close()
 # p_ham_list_stopword = []
 # word_model_set_stopword = []
 # count_task2_stopword = 1
-# # file_model = open("/Users/yuhaomao/PycharmProjects/comp6721_with_YH.M/model.txt")
+# # file_model = open("/Users/PycharmProjects/comp6721_w/model.txt")
 # # contents_model = file_model.readlines()
 # # for i in contents_model:
 # #     word_model = re.split("  ", i)
@@ -510,7 +510,7 @@ output_file_task2.close()
 # count_self = 0
 # # print(model_dict)
 #
-# path_test = '/Users/yuhaomao/Downloads/test'
+# path_test = '/Users/Downloads/test'
 # files_test=os.listdir(path_test)
 # wordset_test_stopword = []
 # spam_score_stopword = 1
@@ -734,7 +734,7 @@ output_file_task2.close()
 # p_ham_list_wlf = []
 # word_model_set_wlf = []
 # count_task2_wlf = 1
-# # file_model = open("/Users/yuhaomao/PycharmProjects/comp6721_with_YH.M/model.txt")
+# # file_model = open("/Users/PycharmProjects/comp6721_wi/model.txt")
 # # contents_model = file_model.readlines()
 # # for i in contents_model:
 # #     word_model = re.split("  ", i)
@@ -743,7 +743,7 @@ output_file_task2.close()
 # count_self = 0
 # # print(model_dict)
 #
-# path_test = '/Users/yuhaomao/Downloads/test'
+# path_test = '/Users/Downloads/test'
 # files_test=os.listdir(path_test)
 # wordset_test_wlf = []
 # spam_score_wlf = 1
