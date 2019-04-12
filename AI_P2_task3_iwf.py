@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import os
 import re
 import math
-path = '/Users/yuhaomao/Downloads/train'
+path = '/Users/Downloads/train'
 files=os.listdir(path)
 
 
@@ -70,7 +70,7 @@ def no_preprocess_iwf(files):
                         word_dict_ham_iwf[word] += 1
 
 
-path_test = '/Users/yuhaomao/Downloads/test'
+path_test = '/Users/Downloads/test'
 files_test=os.listdir(path_test)
 wordset_test = []
 spam_score = 1
@@ -156,7 +156,7 @@ p_spam_list_iwf = []
 p_ham_list_iwf = []
 word_model_set_iwf = []
 count_task2_iwf = 1
-# file_model = open("/Users/yuhaomao/PycharmProjects/comp6721_with_YH.M/model.txt")
+# file_model = open("/Users/PycharmProjects/model.txt")
 # contents_model = file_model.readlines()
 # for i in contents_model:
 #     word_model = re.split("  ", i)
@@ -165,7 +165,7 @@ count_task2_iwf = 1
 count_self = 0
 # print(model_dict)
 
-path_test = '/Users/yuhaomao/Downloads/test'
+path_test = '/Users/Downloads/test'
 files_test=os.listdir(path_test)
 wordset_test_iwf = []
 spam_score_iwf = 1
@@ -499,7 +499,7 @@ output_file_task2_iwf1.close()
 #     else:
 #         break
 # word_stop = []
-# path_stopword = '/Users/yuhaomao/PycharmProjects/comp6721_with_YH.M/stop_word.txt'
+# path_stopword = '/Users/ycharmProjects/stop_word.txt'
 # files_stopword=open(path_stopword)
 # word = files_stopword.readlines()
 #
