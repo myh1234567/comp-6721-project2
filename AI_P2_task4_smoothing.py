@@ -2,7 +2,7 @@ import os
 import re
 import math
 
-path = '/Users/yuhaomao/Downloads/train'
+path = '/Users/Downloads/train'
 files=os.listdir(path)
 x_list = []
 y_list = []
@@ -67,7 +67,7 @@ y_list = []
 #                         word_dict_ham_smooth[word] += 1
 #
 #
-# path_test = '/Users/yuhaomao/Downloads/test'
+# path_test = '/Users/Downloads/test'
 # files_test=os.listdir(path_test)
 # wordset_test = []
 # spam_score = 1
@@ -155,7 +155,7 @@ y_list = []
 # p_ham_list_smooth = []
 # word_model_set_smooth = []
 # count_task2_smooth = 1
-# # file_model = open("/Users/yuhaomao/PycharmProjects/comp6721_with_YH.M/model.txt")
+# # file_model = open("/Users/PycharmProjects/model.txt")
 # # contents_model = file_model.readlines()
 # # for i in contents_model:
 # #     word_model = re.split("  ", i)
@@ -164,7 +164,7 @@ y_list = []
 # count_self = 0
 # # print(model_dict)
 #
-# path_test = '/Users/yuhaomao/Downloads/test'
+# path_test = '/Users/Downloads/test'
 # files_test=os.listdir(path_test)
 # wordset_test_smooth = []
 # spam_score_smooth = 1
@@ -298,7 +298,7 @@ y_list = []
 #                         word_dict_ham_smooth[word] += 1
 #
 #
-# path_test = '/Users/yuhaomao/Downloads/test'
+# path_test = '/Users/Downloads/test'
 # files_test=os.listdir(path_test)
 # wordset_test = []
 # spam_score = 1
@@ -384,7 +384,7 @@ y_list = []
 # p_ham_list_smooth = []
 # word_model_set_smooth = []
 # count_task2_smooth = 1
-# # file_model = open("/Users/yuhaomao/PycharmProjects/comp6721_with_YH.M/model.txt")
+# # file_model = open("/Users/PycharmProjects/comp6721_with_YH.M/model.txt")
 # # contents_model = file_model.readlines()
 # # for i in contents_model:
 # #     word_model = re.split("  ", i)
@@ -393,7 +393,7 @@ y_list = []
 # count_self = 0
 # # print(model_dict)
 #
-# path_test = '/Users/yuhaomao/Downloads/test'
+# path_test = '/Users/Downloads/test'
 # files_test=os.listdir(path_test)
 # wordset_test_smooth = []
 # spam_score_smooth = 1
@@ -524,7 +524,7 @@ y_list = []
 #                         word_dict_ham_smooth[word] += 1
 #
 #
-# path_test = '/Users/yuhaomao/Downloads/test'
+# path_test = '/Users/Downloads/test'
 # files_test=os.listdir(path_test)
 # wordset_test = []
 # spam_score = 1
@@ -610,7 +610,7 @@ y_list = []
 # p_ham_list_smooth = []
 # word_model_set_smooth = []
 # count_task2_smooth = 1
-# # file_model = open("/Users/yuhaomao/PycharmProjects/comp6721_with_YH.M/model.txt")
+# # file_model = open("/Users/PycharmProjects/model.txt")
 # # contents_model = file_model.readlines()
 # # for i in contents_model:
 # #     word_model = re.split("  ", i)
@@ -619,7 +619,7 @@ y_list = []
 # count_self = 0
 # # print(model_dict)
 #
-# path_test = '/Users/yuhaomao/Downloads/test'
+# path_test = '/Users/Downloads/test'
 # files_test=os.listdir(path_test)
 # wordset_test_smooth = []
 # spam_score_smooth = 1
@@ -747,7 +747,7 @@ def no_preprocess_smooth(files):
                         word_dict_ham_smooth[word] += 1
 
 
-path_test = '/Users/yuhaomao/Downloads/test'
+path_test = '/Users/Downloads/test'
 files_test=os.listdir(path_test)
 wordset_test = []
 spam_score = 1
@@ -833,7 +833,7 @@ p_spam_list_smooth = []
 p_ham_list_smooth = []
 word_model_set_smooth = []
 count_task2_smooth = 1
-# file_model = open("/Users/yuhaomao/PycharmProjects/comp6721_with_YH.M/model.txt")
+# file_model = open("/Users/PycharmProjects/model.txt")
 # contents_model = file_model.readlines()
 # for i in contents_model:
 #     word_model = re.split("  ", i)
@@ -842,7 +842,7 @@ count_task2_smooth = 1
 count_self = 0
 # print(model_dict)
 
-path_test = '/Users/yuhaomao/Downloads/test'
+path_test = '/Users/Downloads/test'
 files_test=os.listdir(path_test)
 wordset_test_smooth = []
 spam_score_smooth = 1
@@ -968,7 +968,7 @@ output_file_task2_smooth.close()
 #                         word_dict_ham_smooth[word] += 1
 #
 #
-# path_test = '/Users/yuhaomao/Downloads/test'
+# path_test = '/Users/Downloads/test'
 # files_test=os.listdir(path_test)
 # wordset_test = []
 # spam_score = 1
@@ -1054,7 +1054,7 @@ output_file_task2_smooth.close()
 # p_ham_list_smooth = []
 # word_model_set_smooth = []
 # count_task2_smooth = 1
-# # file_model = open("/Users/yuhaomao/PycharmProjects/comp6721_with_YH.M/model.txt")
+# # file_model = open("/Users/PycharmProjects/model.txt")
 # # contents_model = file_model.readlines()
 # # for i in contents_model:
 # #     word_model = re.split("  ", i)
@@ -1063,7 +1063,7 @@ output_file_task2_smooth.close()
 # count_self = 0
 # # print(model_dict)
 #
-# path_test = '/Users/yuhaomao/Downloads/test'
+# path_test = '/Users/Downloads/test'
 # files_test=os.listdir(path_test)
 # wordset_test_smooth = []
 # spam_score_smooth = 1
@@ -1189,7 +1189,7 @@ output_file_task2_smooth.close()
 #                         word_dict_ham_smooth[word] += 1
 #
 #
-# path_test = '/Users/yuhaomao/Downloads/test'
+# path_test = '/Users/Downloads/test'
 # files_test=os.listdir(path_test)
 # wordset_test = []
 # spam_score = 1
@@ -1275,7 +1275,7 @@ output_file_task2_smooth.close()
 # p_ham_list_smooth = []
 # word_model_set_smooth = []
 # count_task2_smooth = 1
-# # file_model = open("/Users/yuhaomao/PycharmProjects/comp6721_with_YH.M/model.txt")
+# # file_model = open("/Users/PycharmProjects/model.txt")
 # # contents_model = file_model.readlines()
 # # for i in contents_model:
 # #     word_model = re.split("  ", i)
@@ -1284,7 +1284,7 @@ output_file_task2_smooth.close()
 # count_self = 0
 # # print(model_dict)
 #
-# path_test = '/Users/yuhaomao/Downloads/test'
+# path_test = '/Users/Downloads/test'
 # files_test=os.listdir(path_test)
 # wordset_test_smooth = []
 # spam_score_smooth = 1
@@ -1409,7 +1409,7 @@ output_file_task2_smooth.close()
 #                         word_dict_ham_smooth[word] += 1
 #
 #
-# path_test = '/Users/yuhaomao/Downloads/test'
+# path_test = '/Users/Downloads/test'
 # files_test=os.listdir(path_test)
 # wordset_test = []
 # spam_score = 1
@@ -1495,7 +1495,7 @@ output_file_task2_smooth.close()
 # p_ham_list_smooth = []
 # word_model_set_smooth = []
 # count_task2_smooth = 1
-# # file_model = open("/Users/yuhaomao/PycharmProjects/comp6721_with_YH.M/model.txt")
+# # file_model = open("/Users/PycharmProjects/model.txt")
 # # contents_model = file_model.readlines()
 # # for i in contents_model:
 # #     word_model = re.split("  ", i)
@@ -1504,7 +1504,7 @@ output_file_task2_smooth.close()
 # count_self = 0
 # # print(model_dict)
 #
-# path_test = '/Users/yuhaomao/Downloads/test'
+# path_test = '/Users/Downloads/test'
 # files_test=os.listdir(path_test)
 # wordset_test_smooth = []
 # spam_score_smooth = 1
@@ -1631,7 +1631,7 @@ output_file_task2_smooth.close()
 #                         word_dict_ham_smooth[word] += 1
 #
 #
-# path_test = '/Users/yuhaomao/Downloads/test'
+# path_test = '/Users/Downloads/test'
 # files_test=os.listdir(path_test)
 # wordset_test = []
 # spam_score = 1
@@ -1717,7 +1717,7 @@ output_file_task2_smooth.close()
 # p_ham_list_smooth = []
 # word_model_set_smooth = []
 # count_task2_smooth = 1
-# # file_model = open("/Users/yuhaomao/PycharmProjects/comp6721_with_YH.M/model.txt")
+# # file_model = open("/Users/PycharmProjects/model.txt")
 # # contents_model = file_model.readlines()
 # # for i in contents_model:
 # #     word_model = re.split("  ", i)
@@ -1726,7 +1726,7 @@ output_file_task2_smooth.close()
 # count_self = 0
 # # print(model_dict)
 #
-# path_test = '/Users/yuhaomao/Downloads/test'
+# path_test = '/Users/Downloads/test'
 # files_test=os.listdir(path_test)
 # wordset_test_smooth = []
 # spam_score_smooth = 1
@@ -1851,7 +1851,7 @@ output_file_task2_smooth.close()
 #                         word_dict_ham_smooth[word] += 1
 #
 #
-# path_test = '/Users/yuhaomao/Downloads/test'
+# path_test = '/Users/Downloads/test'
 # files_test=os.listdir(path_test)
 # wordset_test = []
 # spam_score = 1
@@ -1937,7 +1937,7 @@ output_file_task2_smooth.close()
 # p_ham_list_smooth = []
 # word_model_set_smooth = []
 # count_task2_smooth = 1
-# # file_model = open("/Users/yuhaomao/PycharmProjects/comp6721_with_YH.M/model.txt")
+# # file_model = open("/Users/PycharmProjects/model.txt")
 # # contents_model = file_model.readlines()
 # # for i in contents_model:
 # #     word_model = re.split("  ", i)
@@ -1946,7 +1946,7 @@ output_file_task2_smooth.close()
 # count_self = 0
 # # print(model_dict)
 #
-# path_test = '/Users/yuhaomao/Downloads/test'
+# path_test = '/Users/Downloads/test'
 # files_test=os.listdir(path_test)
 # wordset_test_smooth = []
 # spam_score_smooth = 1
@@ -2071,7 +2071,7 @@ output_file_task2_smooth.close()
 #                         word_dict_ham_smooth[word] += 1
 #
 #
-# path_test = '/Users/yuhaomao/Downloads/test'
+# path_test = '/Users/Downloads/test'
 # files_test=os.listdir(path_test)
 # wordset_test = []
 # spam_score = 1
@@ -2157,7 +2157,7 @@ output_file_task2_smooth.close()
 # p_ham_list_smooth = []
 # word_model_set_smooth = []
 # count_task2_smooth = 1
-# # file_model = open("/Users/yuhaomao/PycharmProjects/comp6721_with_YH.M/model.txt")
+# # file_model = open("/Users/PycharmProjectsmodel.txt")
 # # contents_model = file_model.readlines()
 # # for i in contents_model:
 # #     word_model = re.split("  ", i)
@@ -2166,7 +2166,7 @@ output_file_task2_smooth.close()
 # count_self = 0
 # # print(model_dict)
 #
-# path_test = '/Users/yuhaomao/Downloads/test'
+# path_test = '/Users/Downloads/test'
 # files_test=os.listdir(path_test)
 # wordset_test_smooth = []
 # spam_score_smooth = 1
@@ -2292,7 +2292,7 @@ output_file_task2_smooth.close()
 #                         word_dict_ham_smooth[word] += 1
 #
 #
-# path_test = '/Users/yuhaomao/Downloads/test'
+# path_test = '/Users/Downloads/test'
 # files_test=os.listdir(path_test)
 # wordset_test = []
 # spam_score = 1
@@ -2378,7 +2378,7 @@ output_file_task2_smooth.close()
 # p_ham_list_smooth = []
 # word_model_set_smooth = []
 # count_task2_smooth = 1
-# # file_model = open("/Users/yuhaomao/PycharmProjects/comp6721_with_YH.M/model.txt")
+# # file_model = open("/Users/PycharmProjects/model.txt")
 # # contents_model = file_model.readlines()
 # # for i in contents_model:
 # #     word_model = re.split("  ", i)
@@ -2387,7 +2387,7 @@ output_file_task2_smooth.close()
 # count_self = 0
 # # print(model_dict)
 #
-# path_test = '/Users/yuhaomao/Downloads/test'
+# path_test = '/Users/Downloads/test'
 # files_test=os.listdir(path_test)
 # wordset_test_smooth = []
 # spam_score_smooth = 1
